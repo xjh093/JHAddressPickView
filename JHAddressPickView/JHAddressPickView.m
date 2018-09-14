@@ -220,7 +220,7 @@
     [_resultDic setValue:town forKey:@"town"];
     [_resultDic setValue:townCode forKey:@"townCode"];
     
-    NSLog(@"%@",_resultDic);
+    //NSLog(@"%@",_resultDic);
 }
 
 @end
