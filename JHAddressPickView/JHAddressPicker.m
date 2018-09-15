@@ -88,6 +88,10 @@
     if (_columns == 3) {
         [_pickView selectRow:_selectRow3 inComponent:2 animated:YES];
     }
+    
+    if (_delegate && [_delegate respondsToSelector:@selector(addressPickerDidSelectedRow:row2:row3:)]) {
+        [_delegate addressPickerDidSelectedRow:_selectRow1 row2:_selectRow2 row3:_selectRow3];
+    }
 }
 
 #pragma mark - UIPickerViewDataSource
