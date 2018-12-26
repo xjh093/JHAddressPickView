@@ -1,7 +1,9 @@
 # JHAddressPickView
 省市区选择器，省市二级选择，省市区三级选择，PickView
 
-# Example
+---
+
+# Usage
 
 ```
     _pickView = [[JHAddressPickView alloc] init];
@@ -29,15 +31,19 @@
     }
 ```
 
+---
+
 # Logs
+### 2018-9-15
+- fix bug
+    - 视图出现，第一次点击“确认”时，选中信息为nil
+    
+### 2018-9-14
+- upload.
 
-## 2.fix bug.(2018-9-15)
-- 视图出现，第一次点击“确认”时，选中信息为nil。
+---
 
-## 1. upload.(2018-9-14)
-
-
-# What is it?
+# What
 ## 省市二级选择
 ![image](https://github.com/xjh093/JHAddressPickView/blob/master/image/image2.png)
 
